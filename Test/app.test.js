@@ -11,3 +11,7 @@ test("Qual o valor da subtrair", ()=>{
 test("Qual o valor da multiplicar", ()=>{
     expect(ServiceConta.multiplicar(6,6)).toBe(36)
 })
+
+test("Qual o valor da dividir", ()=>{
+    expect(ServiceConta.dividir(25,5)).toBe(5)
+})
